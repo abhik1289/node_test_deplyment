@@ -33,3 +33,5 @@ app.post("/create", async (req, res) => {
 app.listen(5000, () => {
     console.log("Server run successfully")
 });
+
+module.exports = app;
